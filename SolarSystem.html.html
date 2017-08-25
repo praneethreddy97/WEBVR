@@ -1,0 +1,130 @@
+<html>
+  <head>
+    <script src="https://aframe.io/releases/0.6.1/aframe.min.js"></script>
+ 
+   
+    <script src="C:\Users\prani\OneDrive\Desktop\project vrcbit\aframe-alongpath-component-master\dist"></script>
+
+  </head>
+  
+  <body>
+    <a-scene>
+    <a-sky src = "stars_milky_way.jpg"> </a-sky>
+
+    <a-entity position="-1532.771 1016.790 -2624.021" rotation="-21.818 -277.885 0">
+        <a-camera fov="45" user-height="0"></a-camera>
+      </a-entity>
+      
+     <a-sphere position="0 0 0" radius="300" color="#FFF" src="sun.jpg">
+ <a-animation attribute="rotation" repeat="indefinite" to="360 0 0" easing="linear" dur="500096"></a-animation></a-sphere>
+ <a-assets><a-mixin id="light" geometry="primitive: sphere; radius: 24.5; " material="src:2k_mercury.jpg"></a-mixin></a-assets>
+        <a-entity position="0 0 0"  >
+        <a-animation attribute="rotation" to="0 360 0"
+                     repeat="indefinite" 
+                     easing="linear" 
+                     dur="50096" >
+        </a-animation>
+        <a-entity mixin="light" position="700 0 0" ></a-entity>
+        </a-entity>
+
+
+        <a-assets><a-mixin id="light1" geometry="primitive: sphere; radius: 60.8; " material="src:2k_venus.jpg"></a-mixin></a-assets>
+        <a-entity position="0 0 0"  >
+        <a-animation attribute="rotation" to="0 360 0"
+                     repeat="indefinite" 
+                     easing="linear" 
+                     dur="70096" >
+        </a-animation>
+        <a-entity mixin="light1" position="950 0 0" ></a-entity>
+        </a-entity>
+
+
+        <a-assets><a-mixin id="light2" geometry="primitive: sphere; radius: 63.1; " material="src:2k_earth.jpg"></a-mixin></a-assets>
+        <a-entity position="0 0 0"  >
+        <a-animation attribute="rotation" to="0 360 0"
+                     repeat="indefinite" 
+                     easing="linear" 
+                     dur="90096" >
+        </a-animation>
+        <a-entity mixin="light2" position="1250 0 0" ></a-entity>
+        </a-entity>
+
+
+        <a-assets><a-mixin id="light3" geometry="primitive: sphere; radius: 33.1; " material="src:2k_mars.jpg"></a-mixin></a-assets>
+        <a-entity position="0 0 0"  >
+        <a-animation attribute="rotation" to="0 360 0"
+                     repeat="indefinite" 
+                     easing="linear" 
+                     dur="110096" >
+        </a-animation>
+        <a-entity mixin="light3" position="1550 0 0" ></a-entity>
+        </a-entity>
+
+
+        <a-assets><a-mixin id="light4" geometry="primitive: sphere; radius: 71.4; " material="src:2k_jupiter.jpg"></a-mixin></a-assets>
+        <a-entity position="0 0 0"  >
+        <a-animation attribute="rotation" to="0 360 0"
+                     repeat="indefinite" 
+                     easing="linear" 
+                     dur="130096" >
+        </a-animation>
+        <a-entity mixin="light4" position="1850 0 0" ></a-entity>
+        </a-entity>
+
+
+        <a-assets><a-mixin id="light5" geometry="primitive: sphere; radius: 60.2; " material="src:2k_saturn.jpg"></a-mixin></a-assets>
+        <a-entity position="0 0 0"  >
+        <a-animation attribute="rotation" to="0 360 0"
+                     repeat="indefinite" 
+                     easing="linear" 
+                     dur="150096" >
+        </a-animation>
+        <a-entity mixin="light5" position="2150 0 0" ></a-entity>
+        </a-entity>
+
+
+         <a-assets><a-mixin id="light6" geometry="primitive: sphere; radius: 25.2; " material="src:2k_uranus.jpg"></a-mixin></a-assets>
+        <a-entity position="0 0 0"  >
+        <a-animation attribute="rotation" to="0 360 0"
+                     repeat="indefinite" 
+                     easing="linear" 
+                     dur="180096" >
+        </a-animation>
+        <a-entity mixin="light6" position="2450 0 0" ></a-entity>
+        </a-entity>
+
+
+         <a-assets><a-mixin id="light7" geometry="primitive: sphere; radius: 24.7; " material="src:2k_neptune.jpg"></a-mixin></a-assets>
+        <a-entity position="0 0 0"  >
+        <a-animation attribute="rotation" to="0 360 0"
+                     repeat="indefinite" 
+                     easing="linear" 
+                     dur="210096" >
+        </a-animation>
+        <a-entity mixin="light7" position="2750 0 0" ></a-entity>
+        </a-entity>
+
+
+        <a-assets><a-mixin id="light8" geometry="primitive: sphere; radius: 11.9; " material="src:pluto.jpg"></a-mixin></a-assets>
+        <a-entity position="0 0 0"  >
+        <a-animation attribute="rotation" to="0 360 0"
+                     repeat="indefinite" 
+                     easing="linear" 
+                     dur="240096" >
+        </a-animation>
+        <a-entity mixin="light8" position="3150 0 0" ></a-entity>
+        </a-entity>
+
+
+
+    
+
+
+
+
+        
+        
+        </a-entity>
+    </a-scene>
+  </body>
+</html>
